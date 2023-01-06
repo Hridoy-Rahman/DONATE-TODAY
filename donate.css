@@ -70,6 +70,7 @@
 
 .price-container .price {
     font-weight: 700;
+    font-size: 30px;
     background: #e1dfdf;
     padding: 43px 30px;
     display: flex;
@@ -82,7 +83,8 @@
 
 .clicked {
     background-color: rgb(242, 218, 218) t;
-    border: 1px solid #FF5959 ;
+    border: 1px solid #FF5959;
+    color: #FF5959;
 }
 
 .doante-amount {
@@ -118,6 +120,7 @@
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     gap: 20px;
+    align-items: left;
 }
 
 .donate-about {
@@ -186,7 +189,7 @@
 }
 
 .how-donate-plan-description {
-    
+
     font-weight: 400;
     font-size: 18px;
     color: #707070;
@@ -206,23 +209,59 @@
     margin-top: 10px;
     transition-duration: .6s;
 }
-.subscribe{
+
+
+.subscribe {
     max-width: 800px;
     background: #FFF4D6;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 100px;
     padding: 74px 188px;
-    
+
 }
-.sub-form{
+
+.sub-form {
     display: flex;
     justify-content: center;
     border-radius: 5px;
 }
-input{
+
+input {
     font-size: 15px;
     padding: 20px;
     border-radius: 5px;
 }
+.email{
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none
+}
+.submit{
+    background: #FF5959;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
 
+.footer {
+    
+    background: #0B0D17;
+}
+.footer-title{
+    font-family: 'Lobster';
+    font-weight: 400;
+    font-size: 36px; 
+    color: #FF5959;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px; 
+    color: #D9DBE1;
+    padding-bottom: 40px;
+    text-align: center;
+}
